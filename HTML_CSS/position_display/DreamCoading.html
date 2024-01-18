@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div, span{
+            width: 80px;
+            height: 80px;
+            margin: 20px;
+        }
+
+        div {
+            background: red;
+        }
+        span{
+            background: blue;
+        }
+    /* display : inline; 의 경우 안에 내용의 size에 맞게 변환 한줄에 나옴, 안에 내용 없으면 안나옴*/
+    /* display : inline-block; 의 경우 안에 내용의 size에 상관없이 box가 나옴.. 한줄에 나옴 */
+    /* display : block; 의 경우 안에 내용의 size에 상관없이 box가 나옴, 한줄에 하나만 나옴 */
+
+    /*    position */
+        .container{
+            background: yellow;
+            left: 20px;
+            top: 20px;
+            /*position: static;*/
+            /*    기본값 static : html 상에서 표시된 대로 펼쳐지는 기본 value 값 */
+            position: relative;
+        /*    내가 있어야할 자리에서 상대적으로 이동하는 것이 relative */
+
+        }
+        .box{
+            background: blue;
+            left: 20px;
+            top: 20px;
+            /*position: relative; */
+            /*position: absolute;*/
+        /*  내가 담겨있는 가장 가까운 box 안에서 위치 이동. 절대 좌표  */
+        /*    position: fixed;*/
+        /*    상자 안에서 완전히 벗어나서 윈도우 페이지 안에서 움직이는 것. */
+            position: sticky;
+        /*    원래있던 자리에 있는데 스크롤링해도 원래 있던 자리에 붙어있는 것을 말한다. */
+        }
+
+    </style>
+</head>
+<body>
+<!-- Block level -->
+<!-- 한줄에 하나 -->
+    <div></div>
+    <div></div>
+    <div></div>
+
+<!-- Inline level -->
+<!-- 한줄에 여러개 -->
+
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+
+<article class="container">
+    <div></div>
+    <div class="box">I'm box</div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</article>
+</body>
+</html>
