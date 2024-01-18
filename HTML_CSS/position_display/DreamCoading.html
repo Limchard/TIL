@@ -12,15 +12,16 @@
 
         div {
             background: red;
+            /*display: inline-block;*/
         }
         span{
             background: blue;
         }
-    /* display : inline; 의 경우 안에 내용의 size에 맞게 변환 한줄에 나옴, 안에 내용 없으면 안나옴*/
-    /* display : inline-block; 의 경우 안에 내용의 size에 상관없이 box가 나옴.. 한줄에 나옴 */
-    /* display : block; 의 경우 안에 내용의 size에 상관없이 box가 나옴, 한줄에 하나만 나옴 */
+     /*display : inline; 의 경우 안에 내용의 size에 맞게 변환 한줄에 나옴, 안에 내용 없으면 안나옴*/
+     /*display : inline-block; 의 경우 안에 내용의 size에 상관없이 box가 나옴.. 한줄에 나옴*/
+     /*display : block; 의 경우 안에 내용의 size에 상관없이 box가 나옴, 한줄에 하나만 나옴*/
 
-    /*    position */
+        /*position*/
         .container{
             background: yellow;
             left: 20px;
@@ -28,6 +29,7 @@
             /*position: static;*/
             /*    기본값 static : html 상에서 표시된 대로 펼쳐지는 기본 value 값 */
             position: relative;
+            /*position: absolute;*/
         /*    내가 있어야할 자리에서 상대적으로 이동하는 것이 relative */
 
         }
@@ -56,9 +58,9 @@
 <!-- Inline level -->
 <!-- 한줄에 여러개 -->
 
-    <span>1</span>
-    <span>2</span>
-    <span>3</span>
+    <span></span>
+    <span></span>
+    <span></span>
 
 <article class="container">
     <div></div>
@@ -73,6 +75,8 @@
     <div></div>
     <div></div>
     <div></div>
+    <p></p>
+    <b style="background-color: #f6e199">gdgd</b>
 </article>
 </body>
 </html>

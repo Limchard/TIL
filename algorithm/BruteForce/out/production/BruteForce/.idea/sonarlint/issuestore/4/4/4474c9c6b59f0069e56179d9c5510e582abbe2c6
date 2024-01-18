@@ -1,0 +1,8 @@
+
+7
+java:S1220""Move this file to a named package.8нйЬЮС1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Зµн‘8ҐкЬЮС1
+M
+java:S1481"+Remove this unused "result" local variable.(У°¬Сшяяяя8ЁкЬЮС1
+F	java:S106"+Replace this use of System.out by a logger.(‚Вќl8©кЬЮС1
