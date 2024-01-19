@@ -23,11 +23,18 @@ public class builder {
 		System.out.println("str2: "+str2);
 
 
-		String sb=new StringBuilder()
+		String str=new StringBuilder()
 			.append("DEF")
 			.insert(0,"ABC")
 			.delete(3,4)
 			.toString();
+		System.out.println(str);
+
+		StringBuilder sb=new StringBuilder();
+		sb.append("DEF");
+		sb.insert(0,"ABC");
+		sb.delete(3,4);
+		sb.toString();
 		System.out.println(sb);
 
 	}
