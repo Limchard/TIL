@@ -1,4 +1,6 @@
 
 0
 java:S1220""Move this file to a named package.
-L	java:S106"+Replace this use of System.out by a logger.(Í±ª™þÿÿÿÿ8òÄº£Ó1
+G	java:S106"+Replace this use of System.out by a logger.(ô›µ’8òÄº£Ó1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ï¹Ç£Ó1
