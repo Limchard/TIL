@@ -1,26 +1,26 @@
-public class CarOverroding
+public class CarOverloading
 {
     String company = "현대자동차";
     String model;
     String color;
     int maxSpeed;
 
-    CarOverroding()
+    CarOverloading()
     {
     }
 
-    CarOverroding(String model)
+    CarOverloading(String model)
     {
         this.model = model;
     }
 
-    CarOverroding(String model, String color)
+    CarOverloading(String model, String color)
     {
         this.model = model;
         this.color = color;
     }
 
-    CarOverroding(String model, String color, int maxSpeed)
+    CarOverloading(String model, String color, int maxSpeed)
     {
         this.model = model;
         this.color = color;
