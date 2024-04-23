@@ -10,10 +10,10 @@ public class B
         // 필드값 변경
         a.field1 = 2; // O 
         a.field2 = 2; // O 
-        a.field3 = 2; // X private 필드 접근 불가(컴파일 에러)
+//        a.field3 = 2; // X private 필드 접근 불가(컴파일 에러)
         
         a.method1(); // O 
         a.method2(); // O 
-        a.method3(); // X private 메소드 접근 불가(컴파일 에러)
+//        a.method3(); // X private 메소드 접근 불가(컴파일 에러)
     }
 }
